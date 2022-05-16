@@ -3,7 +3,7 @@ region = var.aws_region
 access_key = "AKIAQKBWLRVYPNVMCCY4"
 secret_key = "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"
 endpoints {
-sts = "https://sts.ap-south-1.amazonaws.com"
+sts = "https://sts.us-east-1.amazonaws.com"
 }
 assume_role {
 role_arn = "arn:aws:iam::021588839792:role/ec2-terraform-role"
