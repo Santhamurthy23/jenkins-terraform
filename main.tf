@@ -6,7 +6,7 @@ endpoints {
 sts = "https://sts.us-east-1.amazonaws.com"
 }
 assume_role {
-role_arn = "arn:aws:iam::021588839792:role/ec2-terraform-role"
+role_arn = "arn:aws:iam::021588839792:user/devops-user"
 session_name = "terraform_session_name"
 }
 }
